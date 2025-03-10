@@ -12,19 +12,24 @@
           (...)
           &ltlink rel="Stylesheet" type="text/css" href="style.css" /&gt
           (...)
-&lt/head&g
+&lt/head&gt
     </pre>
+     <font face="Arial"> gdzie <b>"style.css"</b> jest zewnętrznym arkuszem stylów. Natomiast znaki (...) oznaczają inne polecenia,
+       które zwykle pojawiają się w nagłówku dokumentu, np. deklaracja strony kodowej. <br></font>
 <h1><LI>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
 ile razy może on występować w dokumencie, jako podłączenie stylu CSS?
 </h1>
 <font face="Arial">
-  gdzie "style.css" jest zewnętrznym arkuszem stylów. Natomiast znaki (...) oznaczają inne
-polecenia, które zwykle pojawiają się w nagłówku dokumentu, np. deklaracja strony kodowej.
-<h1><LI> </h1>
+  <font face="Arial"> wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy znacznikami &lthead&gt a &lt/head&gt), przedstawioną powyżej linijkę:</font><br>
+<h1><LI> Jak jest najprostsza forma wstawiania stylu zewnętrznego</h1>
    <font face="Arial">
+       <pre style="border: 1px solid black; padding: 5px;">
+         &ltlink rel="Stylesheet" type="text/css" href="style.css" /&gt
+       </pre>
      </font>
- <h1> <LI></h1>
+ <h1> <LI>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</h1>
       <font face="Arial"> 
+         można dołączyć dowolną liczbę zewnętrznych arkuszy stylów, każdy jako osobny element &lt link rel="Stylesheet" /&gt
       </font>
 </body>
 </html>
